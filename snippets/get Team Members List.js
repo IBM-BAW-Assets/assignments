@@ -12,8 +12,8 @@ var len = allUsers.length;
 for(var i=0; i< len; i++) {
     nvp = new tw.object.NameValuePair();
    
-    nvp.name = allUsers[i].fullName;
-    nvp.value = allUsers[i].name;
+    nvp.name = allUsers[i].name;
+    nvp.value = allUsers[i].fullName;
     
     tw.local.teamUsers[i] = nvp;
  
